@@ -4,7 +4,7 @@ An Image recognition service based on Flask and Tensorflow. The dependencies inc
 https://github.com/rjmasikome/imagerecognition.ml/
 
 ## Installation
-1. Run `setup.py`
+1. Install dependencies
 2. Run `api.py`
 
 ## Usage
