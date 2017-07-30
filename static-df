@@ -1,0 +1,9 @@
+FROM node:argon
+
+ADD public /
+
+RUN npm install -g http-server
+
+EXPOSE 8080
+
+CMD [ "http-server" ]
