@@ -25,7 +25,7 @@ class ImgRec(Resource):
         obj = {}
 
         if type(imgUrl) is not str:
-            abort(404, description="url query is not defined        ", status=404)
+            abort(404, description="url query is not defined", status=404)
 
         if is_url_image(imgUrl) is not True:
             abort(404, description="Image not found on the url", status=404)

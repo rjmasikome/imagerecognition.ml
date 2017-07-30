@@ -14,7 +14,7 @@ https://github.com/rjmasikome/imagerecognition.ml/
 * Query: `url` - The url of Image that you want to classify
 * Example call:
 ```
-http://imagerecognition.ml/api?url=https://www.petfinder.com/wp-content/uploads/2012/11/91615172-find-a-lump-on-cats-skin-632x475.jpg`
+http://imagerecognition.ml/api?url=https://www.petfinder.com/wp-content/uploads/2012/11/91615172-find-a-lump-on-cats-skin-632x475.jpg
 ```
 * On Success:
 ```js
