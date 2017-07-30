@@ -23,6 +23,7 @@ class ImgRec(Resource):
         args = parser.parse_args()
         imgUrl = args['url']
         obj = {}
+        print(imgUrl)
 
         if is_url_image(imgUrl) is not True:
             abort(404, description="Image not found on the url", status=404)
@@ -49,4 +50,4 @@ class ImgRec(Resource):
 api.add_resource(ImgRec, '/api')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, host='0.0.0.0')
